@@ -51,8 +51,8 @@ function CardFlat() {
       console.log(currentObject)
   return (
     <div className="flex flex-col items-center gap-5 bg-white w-full h-full rounded-xl relative">
-        <div className="flex w-full px-10 pt-10">
-        <Image src={currentObject?.flags?.png } alt={currentObject?.flags?.alt}  className="" width={100} height={100} priority/>
+        <div className="flex w-full px-10 lg:pt-10 md:pt-8 sm:pt-5 xs:pt-3 xxs:pt-2">
+        <Image src={currentObject?.flags?.png } alt={currentObject?.flags?.alt}  className="lg:h-10 md:h-10 sm:h-10 xs:h-10 xxs:h-10" width={100} height={100} priority/>
 
         </div>
       <div className=" px-10">
